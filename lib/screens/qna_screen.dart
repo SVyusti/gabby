@@ -21,7 +21,7 @@ class _QnAScreenState extends State<QnAScreen> {
   int _currentQuestionIndex = 0;
 
   List<Map<String, dynamic>> _questions = [];
-  bool _isLoading = false;
+  final bool _isLoading = false;
   final GeminiService _geminiService = GeminiService();
 
   @override

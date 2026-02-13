@@ -102,7 +102,7 @@ class _BudgetInputState extends State<BudgetInput> {
       backgroundColor: Colors.white,
       selectedColor: const Color(0xFFE75480),
       side: BorderSide(
-        color: isSelected ? const Color(0xFFE75480) : const Color(0xFFDDD),
+        color: isSelected ? const Color(0xFFE75480) : const Color(0x000ffddd),
         width: 2,
       ),
       labelStyle: TextStyle(

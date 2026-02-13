@@ -106,7 +106,7 @@ class _ChecklistTabState extends State<ChecklistTab> {
     } catch (_) {}
 
     final title = phaseInfo?.title ?? 'Phase $phaseNum';
-    final icon = phaseInfo?.icon ?? '${phaseNum}️⃣';
+    final icon = phaseInfo?.icon ?? '$phaseNum️⃣';
 
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 12),

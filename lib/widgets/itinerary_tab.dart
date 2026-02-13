@@ -110,7 +110,7 @@ class _ItineraryTabState extends State<ItineraryTab> {
                 actualIndex,
                 dayIndex + itemIndex,
               );
-            }).toList(),
+            }),
             const SizedBox(height: 12),
           ],
         );
@@ -130,7 +130,7 @@ class _ItineraryTabState extends State<ItineraryTab> {
         color: item.isCompleted ? const Color(0xFFF0F0F0) : Colors.white,
         borderRadius: BorderRadius.circular(12),
         border: Border.all(
-          color: item.isCompleted ? const Color(0xFFCCC) : const Color(0xFFE75480),
+          color: item.isCompleted ? const Color(0x000ffccc) : const Color(0xFFE75480),
           width: 2,
         ),
       ),
@@ -155,7 +155,7 @@ class _ItineraryTabState extends State<ItineraryTab> {
             ? Text(
           item.description!,
           style: TextStyle(
-            color: item.isCompleted ? const Color(0xFF666) : const Color(0xFF666),
+            color: item.isCompleted ? const Color(0x000ff666) : const Color(0x000ff666),
           ),
           maxLines: 2,
           overflow: TextOverflow.ellipsis,

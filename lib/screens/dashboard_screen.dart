@@ -3,7 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'home_screen.dart';
 import 'goals_screen.dart';
-import 'community_screen.dart';
 
 class DashboardScreen extends StatefulWidget {
   final int initialIndex;

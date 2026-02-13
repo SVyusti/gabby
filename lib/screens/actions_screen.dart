@@ -244,10 +244,10 @@ class _ActionsScreenState extends State<ActionsScreen> with TickerProviderStateM
         onPressed: _addCustomAction,
         backgroundColor: const Color(0xFFFC4566),
         elevation: 0,
-        child: const Icon(Icons.add, color: Colors.white, size: 33),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(120),
         ),
+        child: const Icon(Icons.add, color: Colors.white, size: 33),
       ),
     );
   }
@@ -478,7 +478,7 @@ class _ActionsScreenState extends State<ActionsScreen> with TickerProviderStateM
           final index = _dream.microActions.indexOf(entry.value); // Action index in real list
           final action = entry.value;
           return _buildActionCard(action, index);
-        }).toList(),
+        }),
         
         const SizedBox(height: 100), // Action button space
       ],
@@ -684,10 +684,10 @@ class _ActionCardState extends State<ActionCard> {
              ),
            ),
           
-          if (_isExpanded && widget.action.description != null) ...[
+          if (_isExpanded) ...[
              const SizedBox(height: 12),
              Text(
-               widget.action.description!,
+               widget.action.description,
                style: GoogleFonts.inter(
                  fontSize: 13,
                  color: Colors.grey.shade700,
