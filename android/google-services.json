@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "186727385480",
+    "project_id": "gabby-f6617",
+    "storage_bucket": "gabby-f6617.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186727385480:android:355d78be3e6fa3da9b523d",
+        "android_client_info": {
+          "package_name": "com.gabby.gabby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186727385480-5v7it446jmpeq5kdtmimn35v31bfgq7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gabby.gabby",
+            "certificate_hash": "57aad64d0474de86aa8e17b2a65c5bea1b0d1ae8"
+          }
+        },
+        {
+          "client_id": "186727385480-bjclb0i1u7nd707rhati5f7go61pk9k4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-9Z7jIif5DzG4OgxacbNSrX_yWEh8cyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186727385480-bjclb0i1u7nd707rhati5f7go61pk9k4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "186727385480-362bveti18vsubk4hg7i6bn5lfqrjrba.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gabby.gabby"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
