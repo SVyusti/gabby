@@ -3,6 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'home_screen.dart';
 import 'goals_screen.dart';
+import 'community_screen.dart';
+import 'profile_screen.dart';
 
 class DashboardScreen extends StatefulWidget {
   final int initialIndex;
@@ -25,6 +27,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
   final List<Widget> _pages = [
     const HomeScreen(),
     const GoalsScreen(),
+    const CommunityScreen(),
+    const ProfileScreen(),
   ];
 
   void _onItemTapped(int index) {
@@ -50,11 +54,15 @@ class _DashboardScreenState extends State<DashboardScreen> {
           ],
         ),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             _buildNavItem(0, 'assets/navbar_icons/task.png', 'Task'),
             const SizedBox(width: 30),
             _buildNavItem(1, 'assets/navbar_icons/goals.png', 'Goals'),
+            const SizedBox(width: 30),
+            _buildNavItem(2, 'assets/navbar_icons/community.png', 'Community'),
+            const SizedBox(width: 30),
+            _buildNavItem(3, 'assets/navbar_icons/profile.png', 'Profile'),
           ],
         ),
       ),

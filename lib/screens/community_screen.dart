@@ -26,10 +26,10 @@ class CommunityScreen extends StatelessWidget {
 
             const SizedBox(height: 16),
 
-            Expanded( // 🔥 Important fix
+            Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
-                child: GoogleMapWeb( // ✅ Correct widget name
+                child: GoogleMapWeb(
                   latitude: 37.869260,
                   longitude: -122.254811,
                 ),
